@@ -1,0 +1,26 @@
+Best parameters set found on development set:
+
+{'clf__alpha': 0.2}
+
+Grid scores on development set:
+
+0.958 (+/-0.006) for {'clf__alpha': 0}
+0.967 (+/-0.005) for {'clf__alpha': 0.2}
+0.967 (+/-0.005) for {'clf__alpha': 0.3}
+0.966 (+/-0.006) for {'clf__alpha': 0.5}
+0.966 (+/-0.006) for {'clf__alpha': 0.5}
+0.966 (+/-0.006) for {'clf__alpha': 0.7}
+0.965 (+/-0.005) for {'clf__alpha': 1}
+0.964 (+/-0.006) for {'clf__alpha': 1.2}
+
+Detailed classification report:
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+             precision    recall  f1-score   support
+
+     Непрод       0.97      0.99      0.98     11401
+       Прод       0.97      0.93      0.95      5357
+
+avg / total       0.97      0.97      0.97     16758

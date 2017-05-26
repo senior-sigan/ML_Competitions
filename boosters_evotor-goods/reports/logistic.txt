@@ -1,0 +1,34 @@
+Best parameters set found on development set:
+
+{'clf__class_weight': 'balanced', 'clf__penalty': 'l2', 'clf__C': 10}
+
+Grid scores on development set:
+
+-0.127 (+/-0.003) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l2', 'clf__C': 0.5}
+-0.138 (+/-0.004) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l1', 'clf__C': 0.5}
+-0.109 (+/-0.003) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l2', 'clf__C': 1}
+-0.113 (+/-0.004) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l1', 'clf__C': 1}
+-0.087 (+/-0.004) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l2', 'clf__C': 5}
+-0.094 (+/-0.005) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l1', 'clf__C': 5}
+-0.085 (+/-0.004) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l2', 'clf__C': 8}
+-0.097 (+/-0.005) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l1', 'clf__C': 8}
+-0.085 (+/-0.004) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l2', 'clf__C': 10}
+-0.099 (+/-0.005) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l1', 'clf__C': 10}
+-0.085 (+/-0.004) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l2', 'clf__C': 12}
+-0.101 (+/-0.006) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l1', 'clf__C': 12}
+-0.085 (+/-0.004) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l2', 'clf__C': 15}
+-0.105 (+/-0.007) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l1', 'clf__C': 15}
+-0.086 (+/-0.005) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l2', 'clf__C': 20}
+-0.109 (+/-0.009) for {'clf__class_weight': 'balanced', 'clf__penalty': 'l1', 'clf__C': 20}
+
+Detailed classification report:
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+             precision    recall  f1-score   support
+
+     Непрод       0.97      0.98      0.98     11401
+       Прод       0.96      0.95      0.95      5357
+
+avg / total       0.97      0.97      0.97     16758
